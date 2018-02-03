@@ -1,0 +1,18 @@
+Package: cookiemonster
+Type: Package
+Title: Creates Cookie Monster Lineup Plots
+Version: 0.1.0
+Authors@R: person("Emil", "Hvitfeldt", email = "emilhhvitfeldt@gmail.com", role = c("aut", "cre"))
+Description: Combines the power of ggplot2, patchwork and nullabor to include 
+    a picture of Cookie Monster above a lineup plot from nullabor.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 2.10)
+Imports: 
+    ggplot2,
+    nullabor,
+    patchwork
+Remotes: thomasp85/patchwork
+RoxygenNote: 6.0.1
