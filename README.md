@@ -10,7 +10,14 @@ This small package would not have been here without [Thomas Lin Pedersen's](http
 Installation
 ------------
 
-You can install patchwork from github with:
+This package depends on the development package `patchwork` which is not yet on CRAN. But can be downloaded from github.
+
+``` r
+# install.packages("devtools")
+devtools::install_github("thomasp85/patchwork")
+```
+
+You can install cookiemonster from github with:
 
 ``` r
 # install.packages("devtools")
@@ -20,7 +27,7 @@ devtools::install_github("EmilHvitfeldt/cookiemonster")
 Examples
 --------
 
-Due to the flexibility of `patchwork` we are able to have a quite relaxed notation.
+Due to the flexibility of `patchwork` we are able to use a quite relaxed notation.
 
 ``` r
 library(ggplot2)

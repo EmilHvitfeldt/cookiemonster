@@ -20,17 +20,23 @@ The goal of cookiemonster is to add a festive picture of Cookie Monster above a 
 This small package would not have been here without [Thomas Lin Pedersen's](https://twitter.com/thomasp85) [patchwork](https://github.com/thomasp85/patchwork). 
  
 ## Installation
+This package depends on the development package `patchwork` which is not yet on CRAN. But can be downloaded from github. 
 
-You can install patchwork from github with:
+```{r gh-installation1, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("thomasp85/patchwork")
+```
 
-```{r gh-installation, eval = FALSE}
+You can install cookiemonster from github with:
+
+```{r gh-installation2, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("EmilHvitfeldt/cookiemonster")
 ```
 
 ## Examples
 
-Due to the flexibility of `patchwork` we are able to have a quite relaxed notation.
+Due to the flexibility of `patchwork` we are able to use a quite relaxed notation.
 
 ```{r, eval=FALSE}
 library(ggplot2)
