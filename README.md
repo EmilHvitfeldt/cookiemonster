@@ -3,7 +3,7 @@
 cookiemonster
 =============
 
-The goal of cookiemonster is to add a festive picture of Cookie Monster above a line-up protocol plot, in reference to [Graphical inference](https://www.youtube.com/watch?v=rEHKm3Z1zUE) by Hadley Wickham.
+The goal of **cookiemonster** is to add a festive picture of Cookie Monster above a line-up protocol plot, in reference to [Graphical inference](https://www.youtube.com/watch?v=rEHKm3Z1zUE) by Hadley Wickham.
 
 This small package would not have been here without [Thomas Lin Pedersen's](https://twitter.com/thomasp85) [patchwork](https://github.com/thomasp85/patchwork).
 
@@ -17,7 +17,7 @@ This package depends on the development package `patchwork` which is not yet on 
 devtools::install_github("thomasp85/patchwork")
 ```
 
-You can install cookiemonster from github with:
+You can install **cookiemonster** from github with:
 
 ``` r
 # install.packages("devtools")
